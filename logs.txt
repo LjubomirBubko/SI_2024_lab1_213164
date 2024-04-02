@@ -1,0 +1,148 @@
+User@Bubko MINGW64 ~ (bug2|REBASE 1/2)
+$ git log
+commit 1667fd98dfe3ad3ef808d158ceab50dc6576a1e4 (HEAD -> master, origin/master)
+Merge: b07d61d 730a719
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:30:01 2024 +0200
+
+    Resolved merge conflicts
+
+commit 730a719fc3f240e9435e897c9c75ac58427cc446 (origin/bug2, bug2)
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:08:16 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit b07d61d18621941432e53cd9cc2c70449cbe038c (origin/bug1, bug1)
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:06:16 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 106c4df93334365bc75d96d95d3d9be42d665254
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:03:40 2024 +0200
+
+:...skipping...
+commit 1667fd98dfe3ad3ef808d158ceab50dc6576a1e4 (HEAD -> master, origin/master)
+Merge: b07d61d 730a719
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:30:01 2024 +0200
+
+    Resolved merge conflicts
+
+commit 730a719fc3f240e9435e897c9c75ac58427cc446 (origin/bug2, bug2)
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:08:16 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit b07d61d18621941432e53cd9cc2c70449cbe038c (origin/bug1, bug1)
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:06:16 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 106c4df93334365bc75d96d95d3d9be42d665254
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:03:40 2024 +0200
+
+    Fix wrong condition in makeBigStringForm
+
+commit e3e6cdec0272a7dfa9e6c02f2b382b44820fefe9
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 16:55:16 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit f1430a8f932b78369b581436c4221090e19e5141
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 16:47:00 2024 +0200
+
+    Initial commit
+~----------------------------------------------------
+
+od prviot del go nemam commitot bidejki ja izgasiv aplikacijata
+mi zaglavi na rebase so master nemozev nikako da izlezam
+
+-----------------------------------------------------
+
+User@Bubko MINGW64 ~ (bug2|REBASE 1/2)
+$ git log master
+commit 1667fd98dfe3ad3ef808d158ceab50dc6576a1e4 (HEAD -> master, origin/master)
+Merge: b07d61d 730a719
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:30:01 2024 +0200
+
+    Resolved merge conflicts
+
+commit 730a719fc3f240e9435e897c9c75ac58427cc446 (origin/bug2, bug2)
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:08:16 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit b07d61d18621941432e53cd9cc2c70449cbe038c (origin/bug1, bug1)
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:06:16 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 106c4df93334365bc75d96d95d3d9be42d665254
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:03:40 2024 +0200
+
+    Fix wrong condition in makeBigStringForm
+
+commit e3e6cdec0272a7dfa9e6c02f2b382b44820fefe9
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 16:55:16 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit f1430a8f932b78369b581436c4221090e19e5141
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 16:47:00 2024 +0200
+
+    Initial commit
+
+User@Bubko MINGW64 ~ (bug2|REBASE 1/2)
+$ git log bug1
+commit b07d61d18621941432e53cd9cc2c70449cbe038c (origin/bug1, bug1)
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:06:16 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit e3e6cdec0272a7dfa9e6c02f2b382b44820fefe9
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 16:55:16 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit f1430a8f932b78369b581436c4221090e19e5141
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 16:47:00 2024 +0200
+
+    Initial commit
+
+User@Bubko MINGW64 ~ (bug2|REBASE 1/2)
+$ git log bug2
+commit 730a719fc3f240e9435e897c9c75ac58427cc446 (origin/bug2, bug2)
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:08:16 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 106c4df93334365bc75d96d95d3d9be42d665254
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 17:03:40 2024 +0200
+
+    Fix wrong condition in makeBigStringForm
+
+commit f1430a8f932b78369b581436c4221090e19e5141
+Author: LjubomirBubko <bubko.nikolov30@gmail.com>
+Date:   Tue Apr 2 16:47:00 2024 +0200
+
+    Initial commit
+

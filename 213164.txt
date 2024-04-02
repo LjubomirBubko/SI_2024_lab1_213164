@@ -1,0 +1,34 @@
+Чекори
+4. git init - иницијализирање на локалниот директориум
+5. git remote add origin https://github.com/LjubomirBubko/SI_2024_lab1_213164.git - поврзување на локалниот директориум со remote директориумот 
+6. echo Ljubomir Nikolov, 213164, PIT >> README.md - датотека со име,презиме,индекс
+   git add README.md - додавање на датотеката на сцена
+   git commit -m "Initial commit" - commit на датотеката 
+7. git add SILab1Main.java - додавање на датотеката на сцена
+    git add SILab1_1.java
+    git add SILab1_1.java
+8. git push --all origin - синхронизирање на сите гранки со origin
+9. git branch bug1
+   git branch bug2 - креирање на две гранки
+10. git checkout bug1 -> префрлување на гранката bug1
+11. git commit -a -m "Fix wrong loop for reading" - додавање на датотеката SILab1_1.java на сцена и commit на истата датотека Fix wrong condition in filterOddLengthStrings
+12. git checkout bug2 - префрлување на гранката bug2
+13. git commit -a -m "Fix wrong condition in makeBigStringFrom" - додавање на датотеката SILab1_2.java на сцена и commit на истата датотека
+14.git checkout bug1 –враќање на bug1
+15. git commit -a -m "Call method filterOddLengthStrings in main class " - додавање на датотеката SILab1Main.java на сцена и commit на истата датотека
+16.git checkout bug2 –враќање на bug2
+17. git commit -a -m "Call method makeBigStringFrom in main class. " - додавање на датотеката SILab1Main.java на сцена и commit на истата датотека
+18. git push --all origin - синхронизирање на сите гранки со origin
+19. git checkout master - префрлување на гранката master
+20. git merge bug1 - Спојување на master со bug1
+	
+
+21. git push --all origin - синхронизирање на сите гранки со origin
+22.git checkout bug2 –враќање на bug2
+23. git rebase master-rebase со мастер и јавување на конфликти меѓу гранките со што требаше да се реши конфликтот
+24. git checkout master-враќање на master
+25. git merge bug2 - Спојување на master со bug2
+26. git push --force --all origin -> присилно синхронизирање на сите гранки со origin
+28. git add . -> додавање на logs.txt и 213164.txt на сцена
+    git commit -m "Final commit" -> commit на двете датотеки
+29. git push --all origin -> синхронизирање на сите гранки со origin
